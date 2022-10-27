@@ -17,7 +17,7 @@ body {
   font-family: "Fantasy", cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .aaa { text-align: center;
 }
 }
