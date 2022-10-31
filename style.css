@@ -14,7 +14,7 @@
   width: 100%;
 }
 .link {
-  font-family: "Fantasy", cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
@@ -97,7 +97,7 @@ button {
 }
 
 /* Task list */
-.task-item {
+.task__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -114,7 +114,7 @@ button {
   font-size: 18px;
   width: 226px;
 }
-.task-item .input-text {
+.task__item .input-text {
   width: 226px;
 }
 .delete-btn__img {
@@ -133,7 +133,7 @@ button {
 }
 
 /* Edit Task */
-.task-item .input-text {
+.task__item .input-text {
   display: none;
 }
 
