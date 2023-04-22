@@ -9,38 +9,38 @@
 <body class="body">
   <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-    <a class="link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main">
-    <section class="section">
-      <h3 class="title add-title">Add Item</h3>
-      <div class="task-wrapper">
-        <input class="task input-text add-input" type="text">
-        <button class="button">Add</button>
+    <section class="section add__section">
+      <h3 class="title add__title">Add Item</h3>
+      <div class="add__task-wrapper">
+        <input class="task input-text add__input" type="text">
+        <button class="button add-btn">Add</button>
       </div>
     </section>
-    <section class="section">
-      <h3 class="title">Todo</h3>
-      <ul class="task-list incomplete-tasks">
+    <section class="section todo__section">
+      <h3 class="title todo__title">Todo</h3>
+      <ul class="task__list todo__tasks">
         <li class="task__item">
-          <input class="checkbox" type="checkbox"><label class="task task-label">Pay Bills</label>
+          <input class="checkbox" type="checkbox"><label class="task task__label">Pay Bills</label>
           <input class="task input-text" type="text">
           <button class="button edit-btn">Edit</button>
           <button class="button delete-btn"><img class="delete-btn__img" src="./remove.svg" alt="Arrow icon"></button>
         </li>
         <li class="task__item edit-mode">
-          <input class="checkbox" type="checkbox"><label class="task task-label">Go Shopping</label>
+          <input class="checkbox" type="checkbox"><label class="task task__label">Go Shopping</label>
           <input class="task input-text" type="text" value="Go Shopping">
           <button class="button edit-btn">Save</button>
           <button class="button delete-btn"><img class="delete-btn__img" src="./remove.svg" alt="Arrow icon"></button>
         </li>
       </ul>
     </section>
-    <section class="section">
-      <h3 class="title">Completed</h3>
-      <ul class="task-list completed-tasks">
+    <section class="section completed__section">
+      <h3 class="title completed__title">Completed</h3>
+      <ul class="task__list completed__tasks">
         <li class="task__item">
-          <input class="checkbox" type="checkbox" checked><label class="task task-label">See the Doctor</label>
+          <input class="checkbox" type="checkbox" checked><label class="task task__label">See the Doctor</label>
           <input class="task input-text" type="text">
           <button class="button edit-btn">Edit</button>
           <button class="button delete-btn"><img class="delete-btn__img" src="./remove.svg" alt="Arrow icon"></button>
